@@ -114,8 +114,9 @@ Password: qwerty123
         3. Display Entries
         4. Save and exit
         5. Exit without saving
-        Choose an option: 5
-    Exiting...
+        Choose an option: 4
+    Saving database to file: example_database.bin
+    Database saved successfully.
 
 ## Author
 This project was developed by Wojciech Kozub.
