@@ -34,6 +34,7 @@ var NAVTREE =
         [ "Additional Notes", "md_manual_2building.html#autotoc_md5", null ]
       ] ]
     ] ],
+    [ "Topics", "topics.html", "topics" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],

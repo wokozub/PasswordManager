@@ -28,7 +28,7 @@
   <td id="projectalign">
    <div id="projectname">Password Manager<span id="projectnumber">&#160;1.0</span>
    </div>
-   <div id="projectbrief">Project on object-oriented programming</div>
+   <div id="projectbrief">Student project on object-oriented programming course</div>
   </td>
  </tr>
  </tbody>
@@ -114,13 +114,72 @@ Usage</h1>
 <p>To start using the application:</p><ol type="1">
 <li>Build the project.</li>
 <li>Run the main executable.</li>
+<li>Create or open existing database.</li>
 <li>Follow the menu options to add, view, and manage entries.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md9"></a>
-Author</h1>
+<h2><a class="anchor" id="autotoc_md9"></a>
+Example database</h2>
+<p>Example with example_database.bin</p>
+<p>Password: qwerty123 </p><pre class="fragment">$ ./PasswordManager 
+Password Manager
+Enter source database name (new or existing): example_database.bin
+Enter master password: qwerty123
+Loading database from file: example_database.bin
+Database loaded successfully.
+
+    Password Manager Menu:
+    1. Add Entry
+    2. Remove Entry
+    3. Display Entries
+    4. Save and exit
+    5. Exit without saving
+    Choose an option: 1
+Enter title: main email       
+Choose type of entry:
+1. Password Entry
+2. PIN Entry
+1
+Enter username: wojtek@mail.com
+Enter password: password123
+Enter description: 
+
+
+    Password Manager Menu:
+    1. Add Entry
+    2. Remove Entry
+    3. Display Entries
+    4. Save and exit
+    5. Exit without saving
+    Choose an option: 3
+
+fb
+username: Wojtek
+password: strongpassword
+description: meta
+
+Credit card
+PIN: 4321
+description: my bank
+
+main email
+username: wojtek@mail.com
+password: password123
+description: 
+
+    Password Manager Menu:
+    1. Add Entry
+    2. Remove Entry
+    3. Display Entries
+    4. Save and exit
+    5. Exit without saving
+    Choose an option: 4
+Saving database to file: example_database.bin
+Database saved successfully.
+</pre> <h2><a class="anchor" id="autotoc_md10"></a>
+Author</h2>
 <p>This project was developed by Wojciech Kozub.</p>
-<h1><a class="anchor" id="autotoc_md10"></a>
-Copyright</h1>
+<h2><a class="anchor" id="autotoc_md11"></a>
+Copyright</h2>
 <p>GNU General Public License. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->

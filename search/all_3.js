@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['database_0',['database',['../classwk_1_1Database.html',1,'wk::Database'],['../classwk_1_1Database.html#a5007cd7abb4687396d3a461f6081bdb3',1,'wk::Database::Database()']]],
+  ['database_0',['database',['../classwk_1_1Database.html',1,'wk::Database'],['../classwk_1_1Database.html#a5007cd7abb4687396d3a461f6081bdb3',1,'wk::Database::Database()'],['../index.html#autotoc_md9',1,'Example database']]],
   ['database_2ecpp_1',['Database.cpp',['../Database_8cpp.html',1,'']]],
   ['database_2ehpp_2',['Database.hpp',['../Database_8hpp.html',1,'']]],
   ['db_3',['db',['../classwk_1_1PasswordManager.html#a9a65c5bc45bfdadd168f734c4c6ddc42',1,'wk::PasswordManager']]],
