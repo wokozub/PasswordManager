@@ -7,6 +7,7 @@
 namespace wk {
 
     /**
+     * \ingroup Entries
      * \class PasswordEntry
      * \brief Represents a password entry in the password manager.
      * 

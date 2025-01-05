@@ -10,6 +10,7 @@
 namespace wk {
 
     /**
+     * \ingroup Utils
      * \class Database
      * \brief Manages a collection of password and PIN entries.
      *

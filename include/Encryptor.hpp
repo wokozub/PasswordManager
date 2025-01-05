@@ -8,6 +8,7 @@
 namespace wk {
 
     /**
+     * \ingroup Utils
      * \class Encryptor
      * \brief A class responsible for encrypting and decrypting data using AES-256-CBC.
      * 

@@ -6,6 +6,23 @@
 namespace wk {
 
     /**
+     * \defgroup Core Core Classes
+     * Fundamental classes of the application.
+     */
+
+    /**
+     * \defgroup Entries Entries
+     * Classes representing different types of entries.
+     */
+
+    /**
+     * \defgroup Utils Utilities
+     * Tools supporting the application functionality.
+     */
+
+
+    /**
+     * \ingroup Core
      * \class Entry
      * \brief Base class for an entry (PasswordEntry, PinEntry).
      * 

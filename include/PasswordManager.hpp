@@ -7,6 +7,7 @@
 namespace wk {
 
     /**
+     * \ingroup Core
      * \class PasswordManager
      * \brief Handles the main menu for user interaction
      * 

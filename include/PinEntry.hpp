@@ -7,6 +7,7 @@
 namespace wk {
 
     /**
+     * \ingroup Entries
      * \class PinEntry
      * \brief Represents a PIN code entry in the password manager.
      * 
