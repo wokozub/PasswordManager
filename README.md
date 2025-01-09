@@ -117,9 +117,3 @@ Password: qwerty123
         Choose an option: 4
     Saving database to file: ../example_database.bin
     Database saved successfully.
-
-## Author
-This project was developed by Wojciech Kozub.
-
-## Copyright
-GNU General Public License.
