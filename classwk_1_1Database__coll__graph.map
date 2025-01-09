@@ -1,0 +1,5 @@
+<map id="wk::Database" name="wk::Database">
+<area shape="rect" id="Node000001" title="Manages a collection of password and PIN entries." alt="" coords="5,93,116,119"/>
+<area shape="rect" id="Node000002" href="$classwk_1_1Encryptor.html" title="A class responsible for encrypting and decrypting data using AES&#45;256&#45;CBC." alt="" coords="5,5,116,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,45,63,93,58,93,58,45"/>
+</map>

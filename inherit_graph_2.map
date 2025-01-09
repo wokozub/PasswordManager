@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classwk_1_1Entry.html" title="Base class for an entry (PasswordEntry, PinEntry)." alt="" coords="5,31,88,56"/>
+<area shape="rect" id="Node000001" href="$classwk_1_1PasswordEntry.html" title="Represents a password entry in the password manager." alt="" coords="136,5,280,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="101,32,135,27,136,32,102,37"/>
+<area shape="rect" id="Node000002" href="$classwk_1_1PinEntry.html" title="Represents a PIN code entry in the password manager." alt="" coords="157,55,259,80"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="102,49,157,57,156,62,101,54"/>
+</map>
