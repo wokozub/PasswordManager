@@ -64,9 +64,9 @@ Password: qwerty123
 
     $ ./PasswordManager 
     Password Manager
-    Enter source database name (new or existing): example_database.bin
+    Enter source database name (new or existing): ../example_database.bin
     Enter master password: qwerty123
-    Loading database from file: example_database.bin
+    Loading database from file: ../example_database.bin
     Database loaded successfully.
 
         Password Manager Menu:
@@ -115,7 +115,7 @@ Password: qwerty123
         4. Save and exit
         5. Exit without saving
         Choose an option: 4
-    Saving database to file: example_database.bin
+    Saving database to file: ../example_database.bin
     Database saved successfully.
 
 ## Author
