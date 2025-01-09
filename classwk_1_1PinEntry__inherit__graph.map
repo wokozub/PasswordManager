@@ -1,5 +1,0 @@
-<map id="wk::PinEntry" name="wk::PinEntry">
-<area shape="rect" id="Node000001" title="Represents a PIN code entry in the password manager." alt="" coords="5,79,108,104"/>
-<area shape="rect" id="Node000002" href="$classwk_1_1Entry.html" title="Base class for an entry (PasswordEntry, PinEntry)." alt="" coords="15,5,98,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,44,59,79,54,79,54,44"/>
-</map>
