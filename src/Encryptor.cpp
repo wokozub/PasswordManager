@@ -7,10 +7,17 @@ namespace wk {
 
     Encryptor::Encryptor(const std::string& password) {
         unsigned char hash[SHA512_DIGEST_LENGTH];
-        SHA512(reinterpret_cast<const unsigned char*>(password.c_str()), password.size(), hash);
+        SHA512(reinterpret_cast<const unsigned char*>(password.data()), password.size(), hash);
 
-        std::copy(hash, hash + EVP_MAX_KEY_LENGTH, key); // define key
-        std::copy(hash + EVP_MAX_KEY_LENGTH, hash + EVP_MAX_KEY_LENGTH + EVP_MAX_IV_LENGTH, iv); // define IV
+        // define key
+        for (size_t i = 0; i < EVP_MAX_KEY_LENGTH; ++i) {
+            key[i] = hash[i];
+        }
+
+        // define IV
+        for (size_t i = 0; i < EVP_MAX_IV_LENGTH; ++i) {
+            iv[i] = hash[EVP_MAX_KEY_LENGTH + i];
+        }
     }
 
     Encryptor::~Encryptor() {}

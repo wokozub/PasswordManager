@@ -59,7 +59,7 @@ namespace wk {
         bool decryptData(const std::string& inputFile, std::string& output);
 
     private:
-        unsigned char key[EVP_MAX_KEY_LENGTH]; /**< The 512-bit encryption key generated from the password */
+        unsigned char key[EVP_MAX_KEY_LENGTH]; /**< The encryption key generated from the password */
         unsigned char iv[EVP_MAX_IV_LENGTH];  /**< The initialization vector (IV) */
     };
 
