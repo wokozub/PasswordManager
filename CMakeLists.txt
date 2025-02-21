@@ -10,8 +10,6 @@ find_package(OpenSSL REQUIRED)
 # sudo apt update
 # sudo apt install libssl-dev
 
-include_directories(include)
-
 set(SOURCES
     src/Entry.cpp
     src/PasswordEntry.cpp
@@ -23,5 +21,7 @@ set(SOURCES
 )
 
 add_executable(PasswordManager ${SOURCES})
+
+target_include_directories(PasswordManager PRIVATE include)
 
 target_link_libraries(PasswordManager PRIVATE OpenSSL::Crypto)
